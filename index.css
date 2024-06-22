@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    scrollbar-width:none;  
+}
+
+
+
+body
+{
+    background: #F7F8FF;
+    /* background: #4b076a; */
+
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+}
+
+.header 
+{
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.header .logo 
+{
+
+    display: flex;
+    justify-content: center;
+}
+.header .logo img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 45px;
+    top: 39px;
+    left: 43px;
+    gap: 0px;
+    opacity: 0px;
+
+    
+}
+.logo h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    font-weight: 900;
+    color: #0300FF;
+
+    /* color: #20a6c4; */
+
+}
+.header nav
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header nav a
+{
+   
+
+    color: #0300FF;
+    font-weight: 400;
+    font-size: 25px;
+    text-decoration: none;
+} 
+.admin
+{
+    background-color: #0300FF;
+}
+
+/* hero */
+.containerMengajak
+{
+    /* background-color: rgb(76, 89, 89); */
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerText
+{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+.boxText
+{
+    /* background-color: #0300FF; */
+    /* margin-top: 1    0px; */
+    width: 50%;
+}
+.textDikit
+{
+    /* background-color: aqua; */
+    width: 100%;
+    /* display: flex; */
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.textDikit h5
+{
+    text-align: center;
+    width: 100%;
+    color: #0300FF;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.textDikit h3
+{
+    /* background-color: #585782; */
+
+    color: #0300FF;
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 30px;
+}
+.textBanyak
+{
+    /* background-color: rgb(192, 114, 114); */
+    color: #0300FF;
+
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textBanyak span
+{
+    text-align: justify; 
+    font-size: 25px;
+    width: 510px;
+    /* background-color: #F7F8FF; */
+}
+.boximg
+{
+    width: 739px;
+    height: 720px;
+    top: 146px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+ 
+}
+.imgNya
+{
+    /* background-color: #0300FF; */
+    width: auto;
+    height: 550px;
+}
+
+/* jasa */
+.textJasa
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 20vh;
+    /* background-color: #ffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.textJasaText span
+{
+    background-color:#F7F8FF ;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #0300FF;
+
+}
